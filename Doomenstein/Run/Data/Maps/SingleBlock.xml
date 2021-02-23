@@ -1,0 +1,20 @@
+<MapDefinition type="TileMap" version="1" dimensions="7,5">
+
+	<Legend>
+		<Tile glyph="#" regionType="WoodWall"/>
+		<Tile glyph="." regionType="StoneFloor"/>
+	</Legend>
+	<MapRows>
+		<MapRow tiles="......."/>
+		<MapRow tiles="......."/>
+		<MapRow tiles="...#..."/>
+		<MapRow tiles="......."/>
+		<MapRow tiles="......."/>
+	</MapRows>
+	<Entities>
+		<PlayerStart pos="0.5,0.5" yaw="45"/>
+	</Entities>
+
+</MapDefinition>
+
+

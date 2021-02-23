@@ -1,0 +1,9 @@
+<ShaderState 
+    shader="data/shaders/shaders/default.hlsl"
+    frontCCW="true"
+    cull="back" 
+    fill="solid" 
+    depthTest="always" 
+    depthWrite="false"
+    blendMode="additive" 
+/>

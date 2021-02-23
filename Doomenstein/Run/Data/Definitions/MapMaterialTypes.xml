@@ -1,0 +1,42 @@
+<MapMaterialTypes>
+
+	<MaterialsSheet name="TestTerrain" layout="8,8">
+		<Diffuse image="Data/Images/Terrain_8x8.png"/>
+		<!-- ToDo: we'll add Normal, Specular, Emissive, etc. here later -->
+	</MaterialsSheet>
+
+	<!-- ToDo: we'll add multiple terrain sprite sheet sets here later -->
+
+	<MaterialType
+		name="Grass"
+		sheet="TestTerrain"
+		spriteCoords="0,0"
+		/>
+
+	<MaterialType
+		name="RoughStone"
+		sheet="TestTerrain"
+		spriteCoords="4,3"
+		/>
+
+	<MaterialType
+		name="Cobblestone"
+		sheet="TestTerrain"
+		spriteCoords="7,4"
+		/>
+
+	<MaterialType
+		name="StoneBrick"
+		sheet="TestTerrain"
+		spriteCoords="0,4"
+		/>
+
+	<MaterialType
+		name="Wood"
+		sheet="TestTerrain"
+		spriteCoords="0,6"
+		/>
+
+</MapMaterialTypes>
+
+

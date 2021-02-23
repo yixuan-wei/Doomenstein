@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{44e695ac-09fc-4f2d-8e58-766182162f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Definitions">
+      <UniqueIdentifier>{69b20129-1b24-4ff6-ac7b-c4a7d0d5efe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Maps">
+      <UniqueIdentifier>{a5b3d746-66c7-4734-9f77-d997cc6f6969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{3e62abf7-7ace-4501-9995-124b19448d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World\MapDef">
+      <UniqueIdentifier>{04a028b5-933a-4db4-934b-93111778d422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{1fc778b0-713f-4c17-84eb-bc98c679e112}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{4e24ed7c-6b13-4913-9179-01eed3c3f416}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTile.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="MapMaterial.cpp">
+      <Filter>World\MapDef</Filter>
+    </ClCompile>
+    <ClCompile Include="MapRegion.cpp">
+      <Filter>World\MapDef</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialSheet.cpp">
+      <Filter>World\MapDef</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityDefinition.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthoritativeServer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleplayerGame.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplayerGame.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteServer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkObserver.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkMessage.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="World.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTile.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMaterial.hpp">
+      <Filter>World\MapDef</Filter>
+    </ClInclude>
+    <ClInclude Include="MapRegion.hpp">
+      <Filter>World\MapDef</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialSheet.hpp">
+      <Filter>World\MapDef</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityDefinition.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.hpp">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.hpp">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthoritativeServer.hpp">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteServer.hpp">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerClient.hpp">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteClient.hpp">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleplayerGame.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiplayerGame.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkObserver.hpp">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkMessage.hpp">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Run\Data\Definitions\EntityTypes.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\MapMaterialTypes.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Definitions\MapRegionTypes.xml">
+      <Filter>Data\Definitions</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Maps\TestRoom.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Maps\EmptyRoom.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Maps\SingleBlock.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+    <Xml Include="..\..\Run\Data\Maps\TwistyMaze.xml">
+      <Filter>Data\Maps</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

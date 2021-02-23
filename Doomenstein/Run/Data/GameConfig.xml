@@ -1,0 +1,10 @@
+<GameConfig
+	
+	windowAspect="1.777"
+  windowHeightRatio="0.8"
+  windowTitle="Doomenstein A04"
+	isFullscreen="false"
+
+  startMap="TestRoom"
+	
+/>

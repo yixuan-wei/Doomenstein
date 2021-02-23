@@ -1,0 +1,23 @@
+<MapRegionTypes>
+
+	<RegionType name="CobblestoneWall" isSolid="true">
+		<Side material="Cobblestone"/>
+	</RegionType>
+
+	<RegionType name="WoodWall" isSolid="true">
+		<Side material="Wood"/>
+	</RegionType>
+
+	<RegionType name="StoneFloor" isSolid="false">
+		<Floor material="StoneBrick"/>
+		<Ceiling material="RoughStone"/>
+	</RegionType>
+
+	<RegionType name="GrassFloor" isSolid="false">
+		<Floor material="Grass"/>
+		<Ceiling material="RoughStone"/>
+	</RegionType>
+
+</MapRegionTypes>
+
+

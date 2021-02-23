@@ -1,0 +1,7 @@
+<Material 
+    shaderState="data/shaders/states/default.ShaderState"
+
+    diffuse="Data/Images/Terrain_8x8.png"
+    >
+    
+</Material>

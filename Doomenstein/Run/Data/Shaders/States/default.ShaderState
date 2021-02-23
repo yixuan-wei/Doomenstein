@@ -1,0 +1,15 @@
+<ShaderState 
+    shader="data/shaders/shaders/default.hlsl"
+    frontCCW="true"
+    cull="back" 
+    fill="solid"
+    depthTest="lequal" 
+    depthWrite="true"
+    blendMode="alpha" >
+    <!---
+    cull: back/front/none
+    fill: solid/wireframe
+    depthTest: never/always/lequal/gequal/greater/equal
+    blendMode: additive/alpha/opaque
+    --->
+</ShaderState>

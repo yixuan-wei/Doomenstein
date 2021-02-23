@@ -1,0 +1,7 @@
+<Material 
+    shaderState="data/shaders/states/worldOpaque.ShaderState"
+
+    diffuse="Data/Images/Test_StbiFlippedAndOpenGL.png"
+    >
+    
+</Material>
